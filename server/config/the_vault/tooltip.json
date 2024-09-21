@@ -1,6 +1,158 @@
 {
   "tooltips": [
     {
+      "item": "the_vault:augment",
+      "value": "Use in the Crystal Workbench to apply this theme to your Vault Crystal"
+    },
+    {
+      "item": "the_vault:soul_vortex",
+      "value": "An incredible powerful magical vortex core, holding the souls of many fallen.\n\nUse a Soul Diffuser to release it's power"
+    },
+    {
+      "item": "the_vault:crystal_seal_scout",
+      "value": "Use in the Crystal Workbench to set the objective to 'Light The Braziers'"
+    },
+    {
+      "item": "the_vault:crystal_seal_hunter",
+      "value": "Use in the Crystal Workbench to set the objective to 'Scavenger Hunt'"
+    },
+    {
+      "item": "the_vault:crystal_seal_executioner",
+      "value": "Use in the Crystal Workbench to set the objective to 'Hunt The Guardians'"
+    },
+    {
+      "item": "the_vault:crystal_seal_sage",
+      "value": "Use in the Crystal Workbench to set the objective to 'Elixir Rush'"
+    },
+    {
+      "item": "the_vault:crystal_seal_prophet",
+      "value": "Use in the Crystal Workbench to set the objective to 'Bingo'"
+    },
+    {
+      "item": "the_vault:capstone_dungeon_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Dungeon Hunter' modifier"
+    },
+    {
+      "item": "the_vault:capstone_treasure_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Treasure Hunter' modifier"
+    },
+    {
+      "item": "the_vault:phoenix_feather",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Phoenix' modifier"
+    },
+    {
+      "item": "the_vault:eye_of_avarice",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Safe Zone' modifier"
+    },
+    {
+      "item": "the_vault:god_token",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding this god's favour"
+    },
+    {
+      "item": "the_vault:crystal_seal_cake",
+      "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a Cake Crystal!"
+    },
+    {
+      "item": "the_vault:crystal_seal_ordinator_build",
+      "value": "Put this Vault Rock on a Vault Altar to create your Divine Architecture Crystal"
+    },
+    {
+      "item": "the_vault:crystal_seal_ordinator_run",
+      "value": "Put this Vault Rock on a Vault Altar to create your Divine Paradox Crystal"
+    },
+    {
+      "item": "the_vault:paradoxical_gem",
+      "value": "Combine with a sealed Divine Paradox crystal in run mode to wipe and reset all your Divine Paradox progress"
+    },
+    {
+      "item": "the_vault:animatrix_block",
+      "value": "Can hold one mob egg and display the entity above it"
+    },
+    {
+      "item": "the_vault:topaz_shard",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:gilded_ingot",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:ornate_ingot",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:ancient_copper_ingot",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:velvet",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:rotten_meat",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:wooden_chunk",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:overgrown_wooden_chunk",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:sandy_rocks",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:living_rock",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:mossy_bone",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:ornate_chain",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:gilded_sconce",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:vault_moss",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:soot",
+      "value": "Decorative"
+    },
+    {
+      "item": "the_vault:vault_sweets",
+      "value": "Delicious"
+    },
+    {
+      "item": "the_vault:god_token",
+      "value": "Combine with a vault crystal to add a favour from this god"
+    },
+    {
+      "item": "the_vault:soul_flame",
+      "value": "Put this Vault Rock on a Vault Altar to create a Challenger's Crystal, which adds Ascension to your Crystal"
+    },
+    {
+      "item": "the_vault:plunderer_pearl",
+      "value": "Put this Vault Rock on a Vault Altar to create a Plunderer's Crystal, making the vault not yield any experience, but increases the loot amount by 10% and vault ore generation by 25%"
+    },
+    {
+      "item": "the_vault:wardens_pearl",
+      "value": "Put this Vault Rock on a Vault Altar to create a Warded Crystal, which comes with the Afterlife modifier, preventing item loss on death!"
+    },
+    {
+      "item": "minecraft:shield",
+      "value": "Shields automatically block attacks based on their block chance and can not be used to manually block\nThis Vanilla shield has a 5% block chance"
+    },
+    {
       "item": "minecraft:totem_of_undying",
       "value": "Does not function inside a vault!"
     },
@@ -39,14 +191,6 @@
     {
       "item": "the_vault:spicy_hearty_burger",
       "value": "Consume to gain Vault Experience"
-    },
-    {
-      "item": "the_vault:phoenix_feather",
-      "value": "Uber Catalyst\nApply to a crystal to add the Phoenix modifier\nEach feather saves the player from death one time\nCan apply multiple to the same crystal"
-    },
-    {
-      "item": "the_vault:eye_of_avarice",
-      "value": "Uber Catalyst\nApply to a crystal to add the Safe Zone Modifier\nExhausts the crystal"
     },
     {
       "item": "the_vault:vault_burger",
@@ -474,7 +618,7 @@
     },
     {
       "item": "the_vault:vault_gold",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:vault_diamond",
@@ -483,10 +627,6 @@
     {
       "item": "the_vault:skill_essence",
       "value": "Crafting ingredient"
-    },
-    {
-      "item": "the_vault:unidentified_relic",
-      "value": "Contains a random relic\nRight-click to identify"
     },
     {
       "item": "the_vault:hunter_eye",
@@ -514,7 +654,7 @@
     },
     {
       "item": "the_vault:vault_platinum",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:mystery_box",
@@ -586,7 +726,7 @@
     },
     {
       "item": "the_vault:omega_pog",
-      "value": "Used as a crafting ingredient for end game creations\nCan also be combined with an artifact in an anvil to re-roll it"
+      "value": "Used as a crafting ingredient for end game creations"
     },
     {
       "item": "the_vault:eternal_soul",
@@ -619,6 +759,10 @@
     {
       "item": "the_vault:vault_apple",
       "value": "Crafting ingredient"
+    },
+    {
+      "item": "the_vault:repair_core",
+      "value": "When used in an anvil, this will restore a piece of gear to 100% durability, but it will consume one of the gear's repair slots."
     },
     {
       "item": "the_vault:perfect_alexandrite",
@@ -662,7 +806,7 @@
     },
     {
       "item": "the_vault:vault_silver",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:magnet_core_weak",
@@ -682,19 +826,15 @@
     },
     {
       "item": "the_vault:vault_catalyst_infused",
-      "value": "Combine with a Vault Crystal to apply modifiers"
+      "value": "Use in a Crystal Workbench to modify/upgrade a Vault Crystal"
     },
     {
       "item": "the_vault:vault_catalyst_chaos",
-      "value": "Combine with a Vault Crystal to apply 30 random modifiers"
+      "value": "Put this Vault Rock on a Vault Altar to create a Chaos Crystal, adding 30 completely random modifiers to the vault."
     },
     {
       "item": "the_vault:vault_inhibitor",
       "value": "Combine with a Vault Crystal to remove modifiers"
-    },
-    {
-      "item": "the_vault:soul_flame",
-      "value": "Combine with a Vault Crystal to add the Afterlife modifier\nPreventing loss of items if you die\nSets the experience multiplier to 50%"
     },
     {
       "item": "the_vault:soul_shard",
@@ -730,7 +870,7 @@
     },
     {
       "item": "the_vault:void_liquid_bucket",
-      "value": "Crafting ingredient, found in the depths of an Architect Vault"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:vaulterite_ingot",
@@ -825,10 +965,6 @@
       "value": "Contains 1 of 4 pieces from the gear vanity set: Cake\nRight-click to open"
     },
     {
-      "item": "the_vault:vault_altar",
-      "value": "Vaultar for short\nPlace a Vault Rock on the altar to start creating a Vault Crystal"
-    },
-    {
       "item": "the_vault:vending_machine",
       "value": "Can host a trader core with the same name several times"
     },
@@ -849,10 +985,6 @@
       "value": "Generates a random resource until it decays"
     },
     {
-      "item": "the_vault:cryo_chamber",
-      "value": "Used to create Eternals\nInsert eternal souls into the cryo-chamber by\nright-clicking the souls on it\nWhen enough eternal souls have been inserted it will generate and\nhost an eternal\n\nRight click to grab the eternal\nto transport it to an Eternal Pedestal"
-    },
-    {
       "item": "the_vault:vault_diamond_block",
       "value": "Crafting ingredient"
     },
@@ -863,6 +995,54 @@
     {
       "item": "the_vault:bounty_pearl",
       "value": "Use in the Bounty Table to reroll available bounties"
+    },
+    {
+      "item": "the_vault:mote_clarity",
+      "value": "Reveals all curses on a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mote_sanctity",
+      "value": "Removes all curses from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mote_purity",
+      "value": "Removes a random curse from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mod_box",
+      "value": "Right Click to open\n\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards it will contain items from that mod"
+    },
+    {
+      "item": "the_vault:identification_tome",
+      "value": "Hold in the off hand to instantly\nidentify vault gear."
+    },
+    {
+      "item": "the_vault:life_scroll",
+      "value": "Revives an unalived eternal"
+    },
+    {
+      "item": "the_vault:aura_scroll",
+      "value": "Rerolls an eternal's available auras"
+    },
+    {
+      "item": "the_vault:vault_jewel_cutting_station",
+      "value": "Allows Jewels to be cut to decrease their sizes"
+    },
+    {
+      "item": "vaultintegrations:altar_conduit",
+      "value": "Automates the process of completing the Vault Altar"
+    },
+    {
+      "item": "vaultintegrations:speed_enhancement",
+      "value": "Increases the speed of items transported by the Altar Conduit"
+    },
+    {
+      "item": "vaultintegrations:quantity_enhancement",
+      "value": "Increases the quantity of items transported by the Altar Conduit"
+    },
+    {
+      "item": "vaultintegrations:teleport_enhancement",
+      "value": "Teleports items transported by the Altar Conduit"
     }
   ]
 }

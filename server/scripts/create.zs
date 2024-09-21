@@ -3,7 +3,7 @@ for Iskall85's Vaulthunters */
 
 // adding recipes
 
-<recipetype:create:crushing>.addRecipe("crushed_vaultstone_to_rock", [<item:the_vault:chipped_vault_rock> % 50, <item:the_vault:vault_cobblestone>], <item:the_vault:vault_stone>, 350);
+<recipetype:create:crushing>.addRecipe("crushed_vaultstone_to_rock", [<item:the_vault:vault_rock> % 12, <item:the_vault:vault_cobblestone>], <item:the_vault:vault_stone>, 350);
 
 <recipetype:create:crushing>.addRecipe("chromatic_ore_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:chromatic_iron_ore>, 350);
 <recipetype:create:crushing>.addRecipe("chromatic_raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:raw_chromatic_iron>, 350);
@@ -129,6 +129,12 @@ craftingTable.addShaped("create_waterwheel", <item:create:water_wheel>, [
     [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
 ]);
 
+craftingTable.addShaped("create_large_waterwheel", <item:create:large_water_wheel>, [
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
+    [<item:create:water_wheel>, <item:the_vault:gem_pog>, <item:create:water_wheel>],
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
+]);
+
 craftingTable.addShaped("create_basin", <item:create:basin>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:create:andesite_alloy>, <item:the_vault:perfect_larimar>, <item:create:andesite_alloy>],
@@ -216,9 +222,9 @@ craftingTable.addShaped("create_steam_engine", <item:create:steam_engine>, [
 ]);
 
 craftingTable.addShaped("create_vault", <item:create:item_vault> *3, [
-    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:create:andesite_casing>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>]
+    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:create:andesite_casing>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>]
 ]);
 
 <recipetype:create:mixing>.addRecipe("mixing_healing_potion", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion: "minecraft:healing", Bottle:"REGULAR"}) *1000], [

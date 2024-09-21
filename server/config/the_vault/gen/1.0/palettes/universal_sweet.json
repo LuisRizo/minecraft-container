@@ -57,15 +57,15 @@
             "type": "weighted_target",
             "target": "minecraft:stone_slab",
             "output": {
-                "botania:red_quartz_slab": 1,
-                "minecraft:smooth_quartz_slab": 1
+                "minecraft:crimson_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_slab",
             "output": {
-                "minecraft:crimson_slab": 1
+                "botania:red_quartz_slab": 1,
+                "minecraft:smooth_quartz_slab": 1
             }
         },
         {
@@ -594,6 +594,22 @@
         {
             "type": "reference",
             "id": "the_vault:generic/common_elite_spawners"
+        },
+        {
+            "type": "template_stack_tile",
+            "target": "@the_vault:vault_lootables",
+            "stack": [
+                "THEME_SWEET",
+                "THEME_CATEGORY_SWEET"
+            ]
+        },
+        {
+            "type": "template_stack_spawner",
+            "target": "ispawner:spawner",
+            "stack": [
+                "THEME_SWEET",
+                "THEME_CATEGORY_SWEET"
+            ]
         }
     ],
     "entity_processors": [],

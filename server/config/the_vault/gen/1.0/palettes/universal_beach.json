@@ -600,11 +600,27 @@
         },
         {
             "type": "reference",
-            "id": "the_vault:generic/spawners/desert_mobs"
+            "id": "the_vault:generic/spawners/beach_mobs"
         },
         {
             "type": "reference",
             "id": "the_vault:generic/common_elite_spawners"
+        },
+        {
+            "type": "template_stack_tile",
+            "target": "@the_vault:vault_lootables",
+            "stack": [
+                "THEME_BEACH",
+                "THEME_CATEGORY_BEACH"
+            ]
+        },
+        {
+            "type": "template_stack_spawner",
+            "target": "ispawner:spawner",
+            "stack": [
+                "THEME_BEACH",
+                "THEME_CATEGORY_BEACH"
+            ]
         }
     ],
     "entity_processors": [],

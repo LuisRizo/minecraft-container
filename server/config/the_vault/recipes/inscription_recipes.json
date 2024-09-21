@@ -1,25 +1,6 @@
 {
   "inscriptionRecipes": [
-    {
-      "id": "the_vault:inscription_empty",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:crafted_empty\", data:{color:7012096,model:0}, display:{Name:'{\"text\":\"Empty Inscription\",\"color\":\"#FFFFFF\"}' }}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 64,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:inscription_piece",
-          "NBT": "{}"
-        }
-      ]
-    },
+    
     {
       "id": "the_vault:inscription_mushroom",
       "output": {
@@ -34,8 +15,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -64,8 +45,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -94,12 +75,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 32,
+          "AMOUNT": 64,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
@@ -125,8 +106,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -155,17 +136,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
-        {
           "AMOUNT": 32,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 8,
           "ITEM": "the_vault:gem_echo",
           "NBT": "{}"
         }
@@ -205,38 +181,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 32,
-          "ITEM": "the_vault:inscription_piece",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 4,
-          "ITEM": "the_vault:gem_echo",
-          "NBT": "{}"
-        }
-      ]
-    },
-    {
-      "id": "the_vault:omega_digsite",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:omega_digsite\", data:{color:7012096,model:6}, display:{Name:'{\"text\":\"Digsite Inscription\",\"color\":\"#6AFF00\"}' }}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 5,
-          "ITEM": "the_vault:wooden_chest_scroll",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -260,27 +206,12 @@
       },
       "inputs": [
         {
-          "AMOUNT": 32,
-          "ITEM": "the_vault:poisonous_mushroom",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 8,
-          "ITEM": "the_vault:hunter_eye",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 324,
-          "ITEM": "the_vault:vault_bronze",
-          "NBT": "{}"
-        },
-        {
-          "AMOUNT": 32,
+          "AMOUNT": 64,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 4,
+          "AMOUNT": 16,
           "ITEM": "the_vault:gem_echo",
           "NBT": "{}"
         }
@@ -300,12 +231,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 8,
+          "AMOUNT": 16,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         }
@@ -325,13 +256,13 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:inscription_piece",
+          "AMOUNT": 2,
+          "ITEM": "the_vault:gem_echo",
           "NBT": "{}"
         }
       ]
@@ -350,12 +281,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 8,
+          "AMOUNT": 16,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         }
@@ -370,13 +301,13 @@
       },
       "inputs": [
         {
-          "AMOUNT": 64,
+          "AMOUNT": 128,
           "ITEM": "the_vault:gem_larimar",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
@@ -400,12 +331,12 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 8,
+          "AMOUNT": 16,
           "ITEM": "the_vault:inscription_piece",
           "NBT": "{}"
         }
@@ -420,18 +351,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "the_vault:living_chest_scroll",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "the_vault:gilded_chest_scroll",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 192,
-          "ITEM": "the_vault:vault_bronze",
+          "AMOUNT": 1,
+          "ITEM": "the_vault:ornate_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
         {

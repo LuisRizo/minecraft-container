@@ -2,9 +2,9 @@
   "processingTickTime": 20,
   "additionalOutputRarityChances": {
     "SCRAPPY": 0.0,
-    "COMMON": 0.2,
-    "RARE": 0.4,
-    "EPIC": 0.6,
+    "COMMON": 0.25,
+    "RARE": 0.5,
+    "EPIC": 0.75,
     "OMEGA": 1.0
   },
   "gearRecyclingOutput": {
@@ -19,13 +19,65 @@
     "extraOutput1": {
       "chance": 0.2,
       "stack": {
-        "item": "the_vault:wild_focus"
+        "item": "minecraft:netherite_scrap"
       },
       "minCount": 1,
-      "maxCount": 2
+      "maxCount": 1
     },
     "extraOutput2": {
-      "chance": 0.1,
+      "chance": 0.0,
+      "stack": {
+        "item": "the_vault:faceted_focus"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    }
+  },
+  "charmRecyclingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:vault_scrap"
+      },
+      "minCount": 4,
+      "maxCount": 8
+    },
+    "extraOutput1": {
+      "chance": 0.2,
+      "stack": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput2": {
+      "chance": 0.0,
+      "stack": {
+        "item": "the_vault:faceted_focus"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    }
+  },
+  "magnetRecyclingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:vault_scrap"
+      },
+      "minCount": 4,
+      "maxCount": 8
+    },
+    "extraOutput1": {
+      "chance": 0.2,
+      "stack": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput2": {
+      "chance": 0.0,
       "stack": {
         "item": "the_vault:faceted_focus"
       },
@@ -43,17 +95,17 @@
       "maxCount": 1
     },
     "extraOutput1": {
-      "chance": 0.2,
+      "chance": 0.0,
       "stack": {
-        "item": "the_vault:vault_scrap"
+        "item": "minecraft:air"
       },
       "minCount": 1,
       "maxCount": 3
     },
     "extraOutput2": {
-      "chance": 0.01,
+      "chance": 0.0,
       "stack": {
-        "item": "the_vault:gem_pog"
+        "item": "minecraft:air"
       },
       "minCount": 1,
       "maxCount": 1
@@ -61,28 +113,29 @@
   },
   "jewelRecyclingOutput": {
     "mainOutput": {
-      "chance": 0.5,
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:silver_scrap"
+        
+      },
+      "minCount": 5,
+      "maxCount": 8
+    },
+    "extraOutput1": {
+      "chance": 0.05,
       "stack": {
         "item": "the_vault:gemstone"
       },
       "minCount": 1,
       "maxCount": 1
     },
-    "extraOutput1": {
-      "chance": 1.0,
-      "stack": {
-        "item": "the_vault:silver_scrap"
-      },
-      "minCount": 1,
-      "maxCount": 4
-    },
     "extraOutput2": {
       "chance": 1.0,
       "stack": {
-        "item": "the_vault:gem_wutodie"
+        "item": "minecraft:air"
       },
-      "minCount": 1,
-      "maxCount": 2
+      "minCount": 0,
+      "maxCount": 0
     }
   },
   "inscriptionRecyclingOutput": {
@@ -91,8 +144,8 @@
       "stack": {
         "item": "the_vault:inscription_piece"
       },
-      "minCount": 1,
-      "maxCount": 1
+      "minCount": 8,
+      "maxCount": 16
     },
     "extraOutput1": {
       "chance": 0.5,
@@ -100,7 +153,7 @@
         "item": "the_vault:inscription_piece"
       },
       "minCount": 1,
-      "maxCount": 1
+      "maxCount": 2
     },
     "extraOutput2": {
       "chance": 0.1,
@@ -108,7 +161,7 @@
         "item": "the_vault:inscription_piece"
       },
       "minCount": 1,
-      "maxCount": 1
+      "maxCount": 2
     }
   }
 }
